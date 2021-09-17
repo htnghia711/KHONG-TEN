@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+#khongten-body{
+    margin:2% 7% 0 7%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#999999;
+.khongten-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+    .khongten-top-header{
+  
+        .left-header{
+            p{
+                margin-bottom: 0;
+            }
+            img{
+                width: 172px;
+                margin-top: 0;
+            }
+            .icon {
+               i{color: black;
+                padding-right:17%;
+            padding-left: 2px;}  
+                #twitter{
+                    padding: 0;
+                }           
+            }
+           
+        }
+       }
+       .center-header
+       {
+         
+       }
+       .right-header {
+        text-align: right;
+       
+        a{
+            font-weight: normal;
+            color: #999999;
+            text-decoration: none; 
+        }
+        span{
+            padding:0 10px;
+        }
+        img{
+            width: 172px;
+            margin-top: 0;
+        } 
+        i{
+            display: block;
+            color: black;
+        }
+       }
+
+ 
+}
+
