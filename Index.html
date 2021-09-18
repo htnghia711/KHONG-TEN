@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="NO-NAME" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- FONT  -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -44,23 +44,24 @@
                         <a href="">register</a>
                     </div>
                     <img src="./img/header-line-right.png" alt="">
-                    <div class="search-hearder">
+                    <!-- <div class="search-hearder">
                         <form action="/action_page.php">
                             <input type="text" placeholder="Search.." name="search">
                             <button type="submit"><i class="fas fa-search "></i></button>
                         </form>
-                    </div>
+                    </div> -->
+                    <i class="fas fa-search "></i>
                 </div>
             </div>
             <div class="khongten-bottom-warpper">
                 <hr class="line-top">
                 <div class="menu-list">
                     <ul>
-                        <li><a href="#">New</a></li>
+                        <li><a href="#" class="new">News</a></li>
                         <li><a href="#">Phần Mềm</a></li>
                         <li><a href="#">Windows</a></li>
                         <li><a href="#">Kho đồ hoạ</a></li>
-                        <li><a href="#">Game</a></li>
+                        <li><a href="#">Games</a></li>
                         <li><a href="#">Thủ Thuật</a></li>
                         <li><a href="#">Phim</a></li>
                     </ul>
@@ -69,7 +70,34 @@
             </div>
         </div>
     </header>
+    <section class="khongten-featured-threads-wrapper d-flex">
+        <div class="featured-threads-left col-8">
+            <div class="featured-threads-item">
+                <img src="./img/Tree.jpg" alt="tree">
+                <div class="wrapper">
 
+                </div>
+                <div class="text">
+                    <p>Có một cái cây trong 1 cái vường</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="featured-threads-right col-4">
+            <div class="featured-threads-item">
+                <img src="./img/Tree.jpg" alt="tree">
+                <div class="text-bottom-1">
+                    <p>Trên những tán cây nở rộ những đóa hoa</p>
+                </div>
+            </div>
+            <div class="featured-threads-item img-bottom">
+                <img src="./img/Tree.jpg" alt="tree">
+                <div class="text-bottom-2">
+                    <p>Có hai đứa nhóc đang chơi trốn tìm</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Display Date -->
     <script>
         window.onload = setInterval(clock, 1000);
