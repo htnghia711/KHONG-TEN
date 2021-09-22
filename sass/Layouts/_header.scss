@@ -1,7 +1,7 @@
 @import "../Helper/variables";
 .khongten-header-wrapper {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: normal;
 
     .khongten-top-header {
         display: flex;
@@ -131,6 +131,7 @@
     }
     .khongten-bottom-warpper {
         margin-top: 30px;
+        font-weight: bold;
         hr {
             border: none;
             height: 1px;
