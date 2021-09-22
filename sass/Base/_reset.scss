@@ -9,7 +9,7 @@ html,
 body {
     @include styleText($color-black-0, $fs-0, $fw-normal);
     margin-top: 50px;
-    max-width: 1025px;
+    max-width: 1150px;
     margin-right: auto;
     margin-left: auto;
     color: black;
@@ -17,6 +17,10 @@ body {
         list-style-type: none;
     }
     a {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
         text-decoration: none;
         color: black;
     }

@@ -21,6 +21,10 @@
                     padding-right: 17%;
                     padding-left: 2px;
                 }
+                //hover
+                i:hover {
+                    color: $blue;
+                }
                 #twitter {
                     padding: 0;
                 }
@@ -28,7 +32,6 @@
         }
         .right-header {
             text-align: right;
-
             a {
                 font-weight: normal;
                 color: #999999;
