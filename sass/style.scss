@@ -1,0 +1,20 @@
+//chỉ chứa các đường dẫn tới các files con
+//Helper
+@import "./Helper/variables";
+@import "./Helper/mixin";
+
+//Vendor (chỉ import file scss của thư viện)
+
+//Base
+@import "./Base/reset";
+
+//Components
+@import "./Components/button";
+
+//Layouts
+@import "./Layouts/header";
+@import "./Layouts/featured";
+
+//Pages
+
+//Theme

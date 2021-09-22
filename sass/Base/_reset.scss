@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    @include styleText($color-black-0, $fs-0, $fw-normal);
+    margin-top: 50px;
+    max-width: 1025px;
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    li {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
