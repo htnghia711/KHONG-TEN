@@ -148,6 +148,10 @@ body a:hover {
   margin-right: -15px;
 }
 
+.khongten-header-wrapper .khongten-top-header .search-toggle .icon-close i {
+  color: black;
+}
+
 .khongten-header-wrapper .khongten-top-header .search-toggle .search-icon {
   font-size: 16px;
   border: none;
