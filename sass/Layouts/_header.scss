@@ -1,3 +1,4 @@
+@import "../Helper/variables";
 .khongten-header-wrapper {
     text-transform: uppercase;
     font-weight: bold;
@@ -22,9 +23,19 @@
                     padding-left: 2px;
                 }
                 //hover
-                i:hover {
+                .fa-facebook-square:hover {
                     color: $blue;
                 }
+                .fa-youtube:hover {
+                    color: $red;
+                }
+                .fa-instagram:hover {
+                    color: orange;
+                }
+                .fa-twitter:hover {
+                    color: $blue;
+                }
+                //End hover
                 #twitter {
                     padding: 0;
                 }
@@ -48,16 +59,70 @@
                 color: black;
             }
         }
-        .search-hearder {
-            input {
-                border-radius: 6px;
-                border: 1px solid #999999;
+        //   Search
+
+        .search-toggle {
+            .icon-search {
+                margin-right: -15px;
             }
-            button {
+        
+            .search-icon {
+                font-size: 16px;
                 border: none;
-                background-color: white;
+
+                i {
+                    background-color: white;
+                }
+                // &.icon-close{} { display: none; }
+                &.icon-close {
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+            &.opened {
+                .search-icon {
+                    // &.icon-search { display: none; }
+                    // &.icon-close { display: block; }
+                    &.icon-search {
+                        opacity: 0;
+                        visibility: hidden;
+                    }
+                    &.icon-close {
+                        opacity: 1;
+                        visibility: visible;
+                    }
+                }
             }
         }
+        .search-container {
+            position: relative;
+            max-height: 0;
+            overflow: hidden;
+
+            &.opened {
+                max-height: 40px;
+            }
+            input[type="text"] {
+                outline: none;
+                font-size: 16px;
+                width: 200px;
+                background-color: #eee;
+                border: 0;
+                border-radius: 3px;
+                padding: 10px;
+            }
+            .search-icon {
+                vertical-align: middle;
+                border: none;
+                i {
+                    padding: 2px;
+                    background-color: white;
+                    font-size: 18px;
+                }
+            }
+        }
+
+        // End Search
     }
     .khongten-bottom-warpper {
         margin-top: 30px;
