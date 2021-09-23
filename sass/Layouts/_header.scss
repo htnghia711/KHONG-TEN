@@ -8,6 +8,7 @@
         justify-content: space-between;
         color: #999999;
         .left-header {
+            width: 227px;
             p {
                 margin-bottom: 0;
             }
@@ -19,7 +20,7 @@
                 cursor: pointer;
                 i {
                     color: black;
-                    padding-right: 17%;
+                    padding-right: 14%;
                     padding-left: 2px;
                     transition: 0.5s;
                 }
@@ -48,6 +49,16 @@
             a {
                 font-weight: normal;
                 color: #999999;
+            }
+            // a:hover {
+            //     color: black;
+            //     transition: 0.3px;
+            // }
+            .top-right-header {
+                a:hover {
+                    color: black;
+                    transition: 0.5s;
+                }
             }
             span {
                 padding: 0 10px;
@@ -111,10 +122,10 @@
                 outline: none;
                 font-size: 16px;
                 width: 200px;
-                background-color: #eee;
+                background-color: rgb(243, 240, 240);
                 border: 0;
                 border-radius: 3px;
-                padding: 10px;
+                padding: 5px;
             }
             .search-icon {
                 vertical-align: middle;
@@ -129,8 +140,8 @@
 
         // End Search
     }
-    .khongten-bottom-warpper {
-        margin-top: 30px;
+    .khongten-bottom-wrapper {
+        margin-top: 40px;
         font-weight: bold;
         hr {
             border: none;
@@ -138,20 +149,36 @@
             background-color: black;
         }
         .line-bottom {
-            height: 3px;
+            height: 2px;
         }
         .menu-list ul {
             display: flex;
             justify-content: space-between;
             padding: 0 120px;
+
             li {
+                padding: 0px;
+                font-size: 16px;
+
+                font-weight: 600;
+                text-align: center;
+
                 a {
                     color: black;
+
+                    padding: 17.5px 20px;
                 }
                 .new {
-                    color: #999999;
-                    font-weight: bold;
+                    color: black;
                 }
+                .new:active {
+                    color: #999999;
+                }
+                // Hover menu
+                a:hover {
+                    color: #999999;
+                }
+                // End hover menu
             }
         }
     }
