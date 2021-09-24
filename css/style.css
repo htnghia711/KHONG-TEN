@@ -28,8 +28,6 @@ html a,
 body a {
   text-decoration: none;
   color: black;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
 }
 
 html a:hover,
