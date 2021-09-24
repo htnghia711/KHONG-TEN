@@ -30,12 +30,6 @@ body a {
   color: black;
 }
 
-html a:hover,
-body a:hover {
-  text-decoration: none;
-  color: black;
-}
-
 .ude-btnRed {
   background-color: #ec5252;
   border: 1px solid #ec5252;
