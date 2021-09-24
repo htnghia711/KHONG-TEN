@@ -11,7 +11,7 @@ body {
   color: #29303b;
   font-size: 15px;
   font-weight: normal;
-  margin-top: 30px;
+  padding-top: 25px;
   max-width: 1150px;
   margin-right: auto;
   margin-left: auto;
@@ -257,10 +257,8 @@ body a:hover {
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a {
   color: black;
   padding: 17.5px 20px;
-}
-
-.khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .new {
-  color: black;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .active {
@@ -269,8 +267,6 @@ body a:hover {
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a:hover {
   color: #999999;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-left {
@@ -287,9 +283,15 @@ body a:hover {
   height: 500px;
 }
 
-.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content {
-  position: absolute;
+.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content .post-wrapper {
   top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(134, 99, 99, 0.233);
+  height: 500px;
+  width: 767px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.76)), to(rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.76), rgba(255, 255, 255, 0));
   font-size: 30px;
   font-weight: bold;
   color: white;
@@ -297,16 +299,15 @@ body a:hover {
   padding-top: 320px;
 }
 
-.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content .post-content a {
-  border: 1px solid white;
-  padding: 5px 10px;
-  font-size: 18px;
+.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content .post-wrapper .post-content a {
+  padding: 5px 15px;
+  font-size: 14px;
   font-weight: normal;
   color: white;
-  background-color: rgba(58, 56, 56, 0.568);
+  background-color: #f94144;
 }
 
-.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content .post-info {
+.khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container .featured-threads-content .post-wrapper .post-info {
   cursor: pointer;
 }
 

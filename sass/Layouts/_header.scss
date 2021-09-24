@@ -165,17 +165,15 @@
                 a {
                     color: black;
                     padding: 17.5px 20px;
+                    transition: all 0.3s ease-in-out;
                 }
-                .new {
-                    color: black;
-                }
+
                 .active {
                     color: #999999;
                 }
                 // Hover menu
                 a:hover {
                     color: #999999;
-                    transition: 0.5s;
                 }
                 // End hover menu
             }

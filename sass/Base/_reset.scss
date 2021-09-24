@@ -8,7 +8,7 @@
 html,
 body {
     @include styleText($color-black-0, $fs-0, $fw-normal);
-    margin-top: 30px;
+    padding-top: 25px;
     max-width: 1150px;
     margin-right: auto;
     margin-left: auto;
