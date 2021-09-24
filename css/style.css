@@ -22,6 +22,7 @@ body {
 html li,
 body li {
   list-style-type: none;
+  color: black;
 }
 
 html a,
@@ -250,8 +251,8 @@ body a {
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a {
   color: black;
   padding: 17.5px 20px;
-  -webkit-transition: all 0.3s linear;
-  transition: all 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
 }
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .active {
@@ -341,8 +342,8 @@ body a {
 .khongten-featured-threads-wrapper .featured-threads-right figure img {
   width: 100%;
   height: 244px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-right .img-bottom {
@@ -365,8 +366,6 @@ body a {
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
   padding: 0px 25px;
   padding-top: 149px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-right .featured-threads-container .featured-threads-content .click-main a {
@@ -412,8 +411,6 @@ body a {
   height: 96%;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.753)), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-right .featured-threads-container-bottom .featured-threads-content .click-main a {
