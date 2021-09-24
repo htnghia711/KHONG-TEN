@@ -161,7 +161,8 @@
                 a {
                     color: black;
                     padding: 17.5px 20px;
-                    transition: 0.3s linear;
+                    text-decoration: none;
+                    transition: 0.2s;
                 }
 
                 .active {
@@ -170,6 +171,7 @@
                 // Hover menu
                 a:hover {
                     color: #999999;
+                    transition: 0.3s ease-in-out;
                 }
                 // End hover menu
             }

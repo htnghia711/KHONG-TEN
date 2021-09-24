@@ -22,13 +22,11 @@ body {
 html li,
 body li {
   list-style-type: none;
-  color: black;
 }
 
 html a,
 body a {
   text-decoration: none;
-  color: black;
 }
 
 .ude-btnRed {
@@ -251,8 +249,9 @@ body a {
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a {
   color: black;
   padding: 17.5px 20px;
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
+  text-decoration: none;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .active {
@@ -261,6 +260,8 @@ body a {
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a:hover {
   color: #999999;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-left {
