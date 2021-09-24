@@ -263,7 +263,7 @@ body a:hover {
   color: black;
 }
 
-.khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .new:active {
+.khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .active {
   color: #999999;
 }
 
