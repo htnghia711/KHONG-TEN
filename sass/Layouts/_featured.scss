@@ -14,6 +14,10 @@
             img {
                 width: 100%;
                 height: 500px;
+                .figure {
+                    width: 100%;
+                    height: 244px;
+                }
             }
             .featured-threads-content {
                 .post-wrapper {
@@ -28,7 +32,7 @@
                     font-weight: bold;
                     color: white;
                     padding: 0 40px;
-                    padding-top: 340px;
+                    padding-top: 350px;
                     line-height: 1.3;
                     .post-content {
                         a {
@@ -52,10 +56,16 @@
         padding-right: 0;
         padding-left: 12px;
         height: 244px;
-
+        figure {
+            margin: 0;
+        }
         img {
             width: 100%;
             height: 244px;
+            -webkit-filter: grayscale(0) blur(0);
+            filter: grayscale(0) blur(0);
+            -webkit-transition: 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
         }
         .img-bottom {
             padding-top: 12px;
@@ -72,7 +82,7 @@
                 height: 100%;
                 background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
                 padding: 0px 25px;
-                padding-top: 168px;
+                padding-top: 149px;
                 .post-content {
                     a {
                         padding: 4px 5px;
@@ -102,10 +112,11 @@
                 color: white;
                 border: 1 solid black;
                 padding: 0 25px;
-                padding-top: 168px;
+                padding-top: 149px;
                 width: 100%;
                 height: 96%;
                 background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
+                transition: all 0.3s ease-in-out;
                 .post-content {
                     a {
                         padding: 4px 5px;
@@ -124,5 +135,20 @@
                 }
             }
         }
+
+        // Hover featured
+        .featured-threads-container:hover {
+            .featured-threads-content {
+                background-image: none;
+                border: 1px solid rgba(0, 0, 0, 0.425);
+            }
+            img {
+                -webkit-filter: grayscale(100%) blur(3px);
+                filter: grayscale(100%) blur(3px);
+                background-color: $blue;
+            }
+        }
+
+        // End featured
     }
 }
