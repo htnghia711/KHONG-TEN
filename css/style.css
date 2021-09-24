@@ -269,6 +269,8 @@ body a:hover {
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li a:hover {
   color: #999999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .khongten-featured-threads-wrapper .featured-threads-left {

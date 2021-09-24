@@ -164,7 +164,6 @@
 
                 a {
                     color: black;
-
                     padding: 17.5px 20px;
                 }
                 .new {
@@ -176,6 +175,7 @@
                 // Hover menu
                 a:hover {
                     color: #999999;
+                    transition: 0.5s;
                 }
                 // End hover menu
             }
