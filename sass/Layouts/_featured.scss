@@ -1,56 +1,59 @@
 .khongten-featured-threads-wrapper {
     .featured-threads-left {
         margin-top: 10px;
-        padding: 0;
+        position: relative;
         .featured-threads-container {
             position: relative;
-            // .wrapper {
-            //     position: absolute;
-            //     top: 230px;
-            //     padding: 68px 0 0 100%;
-            //     background-color: black;
-            //     opacity: 75%;
-            // }
-            img {
+            figure {
+                overflow: hidden;
                 width: 100%;
                 height: 500px;
-                .figure {
+                img {
                     width: 100%;
-                    height: 244px;
+                    height: 500px;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                    -webkit-transition: 0.3s ease-in-out;
+                    transition: 0.3s ease-in-out;
                 }
             }
             .featured-threads-content {
-                .post-wrapper {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                // opacity: 30%;
+                background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
+                font-size: 28px;
+                font-weight: bold;
+                color: white;
+                padding: 0 40px;
+                padding-top: 350px;
+                line-height: 1.3;
+                .click-main a {
                     position: absolute;
                     top: 0;
                     left: 0;
-                    height: 500px;
-                    width: 767px;
-                    // opacity: 30%;
-                    background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
-                    font-size: 28px;
-                    font-weight: bold;
-                    color: white;
-                    padding: 0 40px;
-                    padding-top: 350px;
-                    line-height: 1.3;
-                    .post-content {
-                        a {
-                            padding: 4px 5px;
-                            font-size: 12px;
-                            font-weight: normal;
-                            color: white;
-                            background-color: #f94144;
-                        }
+                    width: 100%;
+                    height: 100%;
+                }
+                .post-content {
+                    a {
+                        padding: 4px 5px;
+                        font-size: 12px;
+                        font-weight: normal;
+                        color: white;
+                        background-color: #f94144;
                     }
-                    .post-info {
-                        cursor: pointer;
-                        padding-top: 10px;
-                    }
+                }
+                .post-info {
+                    cursor: pointer;
+                    padding-top: 10px;
                 }
             }
         }
     }
+
     .featured-threads-right {
         margin-top: 10px;
         padding-right: 0;
@@ -58,15 +61,19 @@
         height: 244px;
         figure {
             margin: 0;
-        }
-        img {
+            padding: 0;
             width: 100%;
             height: 244px;
-            -webkit-filter: grayscale(0) blur(0);
-            filter: grayscale(0) blur(0);
-            -webkit-transition: 0.3s ease-in-out;
-            transition: all 0.3s ease-in-out;
+            img {
+                width: 100%;
+                height: 244px;
+                -webkit-filter: grayscale(0) blur(0);
+                filter: grayscale(0) blur(0);
+                -webkit-transition: 0.3s ease-in-out;
+                transition: all 0.3s ease-in-out;
+            }
         }
+
         .img-bottom {
             padding-top: 12px;
         }
@@ -83,6 +90,14 @@
                 background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
                 padding: 0px 25px;
                 padding-top: 149px;
+                transition: all 0.3s ease-in-out;
+                .click-main a {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
                 .post-content {
                     a {
                         padding: 4px 5px;
@@ -117,6 +132,13 @@
                 height: 96%;
                 background-image: linear-gradient(bottom, rgba(0, 0, 0, 0.753), rgba(255, 255, 255, 0));
                 transition: all 0.3s ease-in-out;
+                .click-main a {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
                 .post-content {
                     a {
                         padding: 4px 5px;
@@ -135,12 +157,14 @@
                 }
             }
         }
+    }
 
-        // Hover featured
+    // Hover featured
+    .featured-threads-right {
         .featured-threads-container:hover {
             .featured-threads-content {
                 background-image: none;
-                border: 1px solid rgba(0, 0, 0, 0.425);
+                border: 1px solid rgba(59, 57, 57, 0.425);
             }
             img {
                 -webkit-filter: grayscale(100%) blur(3px);
@@ -148,7 +172,20 @@
                 background-color: $blue;
             }
         }
-
-        // End featured
+        .featured-threads-container-bottom:hover {
+            .featured-threads-content {
+                background-image: none;
+            }
+        }
     }
+
+    .featured-threads-left {
+        .featured-threads-container:hover {
+            img {
+                -webkit-transform: scale(1.3);
+                transform: scale(1.3);
+            }
+        }
+    }
+    // End featured
 }
