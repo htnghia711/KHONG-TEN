@@ -2,7 +2,6 @@
 .khongten-header-wrapper {
     text-transform: uppercase;
     font-weight: normal;
-
     .khongten-top-header {
         display: flex;
         justify-content: space-between;
@@ -22,9 +21,14 @@
                     color: black;
                     padding-right: 14%;
                     padding-left: 2px;
-                    transition: 0.5s linear;
                 }
                 //hover
+                .fa-facebook-square,
+                .fa-instagram,
+                .fa-twitter,
+                .fa-youtube {
+                    transition: 0.5s linear;
+                }
                 .fa-facebook-square:hover {
                     color: $blue;
                 }
@@ -48,12 +52,13 @@
             a {
                 font-weight: normal;
                 color: #999999;
-                transition: 0.5s linear;
+                text-decoration: none;
             }
-
+            //login & register
             .top-right-header {
                 a:hover {
                     color: black;
+                    transition: 0.5s linear;
                 }
             }
             span {
@@ -162,7 +167,6 @@
                     color: black;
                     padding: 17.5px 20px;
                     text-decoration: none;
-                    transition: 0.2s;
                 }
 
                 .active {

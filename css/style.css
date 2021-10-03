@@ -97,6 +97,12 @@ body a {
   color: black;
   padding-right: 14%;
   padding-left: 2px;
+}
+
+.khongten-header-wrapper .khongten-top-header .left-header .icon .fa-facebook-square,
+.khongten-header-wrapper .khongten-top-header .left-header .icon .fa-instagram,
+.khongten-header-wrapper .khongten-top-header .left-header .icon .fa-twitter,
+.khongten-header-wrapper .khongten-top-header .left-header .icon .fa-youtube {
   -webkit-transition: 0.5s linear;
   transition: 0.5s linear;
 }
@@ -128,12 +134,13 @@ body a {
 .khongten-header-wrapper .khongten-top-header .right-header a {
   font-weight: normal;
   color: #999999;
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
+  text-decoration: none;
 }
 
 .khongten-header-wrapper .khongten-top-header .right-header .top-right-header a:hover {
   color: black;
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear;
 }
 
 .khongten-header-wrapper .khongten-top-header .right-header span {
@@ -250,8 +257,6 @@ body a {
   color: black;
   padding: 17.5px 20px;
   text-decoration: none;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
 }
 
 .khongten-header-wrapper .khongten-bottom-wrapper .menu-list ul li .active {
