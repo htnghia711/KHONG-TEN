@@ -17,6 +17,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   color: black;
+  font-size: 16px;
 }
 
 html li,
@@ -457,5 +458,111 @@ body a {
 .khongten-featured-threads-wrapper .featured-threads-left .featured-threads-container:hover img {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
+}
+
+.khongten-main .row {
+  padding: 0;
+  margin: 0;
+}
+
+.khongten-main .phanmem .post-category a {
+  color: white;
+  padding: 3px 10px;
+  background-color: #5f35ac;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.khongten-main .container-right {
+  padding: 0;
+}
+
+.khongten-main .container-right .title {
+  margin: 10px 0 18px;
+}
+
+.khongten-main .container-right .title h4 {
+  margin: 0;
+  width: 15%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.khongten-main .container-right .title hr {
+  width: 90%;
+  margin-top: 12px;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, purple), color-stop(1%, #e0dada));
+  background: linear-gradient(to right, purple 10%, #e0dada 1% 40%);
+}
+
+.khongten-main .phanmem-main-topic {
+  margin-bottom: 40px;
+}
+
+.khongten-main .phanmem-main-topic img {
+  width: 48%;
+}
+
+.khongten-main .phanmem-main-topic .main-topic-post {
+  padding-left: 3%;
+}
+
+.khongten-main .phanmem-main-topic .main-topic-post .title {
+  padding-top: 9px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #29303b;
+}
+
+.khongten-main .phanmem-main-topic .main-topic-post span,
+.khongten-main .phanmem-main-topic .main-topic-post i {
+  color: #2e2c2c;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+.khongten-main .phanmem-main-topic .main-topic-post p {
+  margin: 0;
+  padding-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+.khongten-main .phanmem-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+
+.khongten-main .phanmem-content img {
+  width: 32%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.khongten-main .phanmem-content .content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.khongten-main .phanmem-content .content-item .post {
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.khongten-main .phanmem-content .content-item .post .title {
+  color: #29303b;
+  font-weight: 600;
+}
+
+.khongten-main .phanmem-content .content-item .post span,
+.khongten-main .phanmem-content .content-item .post i {
+  font-size: 12px;
+  color: #29303b;
 }
 /*# sourceMappingURL=style.css.map */
