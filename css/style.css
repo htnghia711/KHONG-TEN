@@ -465,11 +465,14 @@ body a {
   margin: 0;
 }
 
+.khongten-main .phanmem a {
+  text-decoration: none;
+}
+
 .khongten-main .phanmem .post-category a {
   color: white;
   padding: 3px 10px;
   background-color: #5f35ac;
-  text-decoration: none;
   font-size: 12px;
 }
 
@@ -497,11 +500,15 @@ body a {
 }
 
 .khongten-main .phanmem-main-topic {
-  margin-bottom: 40px;
+  margin-bottom: 36px;
 }
 
-.khongten-main .phanmem-main-topic img {
-  width: 48%;
+.khongten-main .phanmem-main-topic a {
+  width: 50%;
+}
+
+.khongten-main .phanmem-main-topic a img {
+  width: 150%;
 }
 
 .khongten-main .phanmem-main-topic .main-topic-post {
@@ -556,8 +563,10 @@ body a {
 }
 
 .khongten-main .phanmem-content .content-item .post .title {
+  display: block;
   color: #29303b;
   font-weight: 600;
+  text-decoration: none;
 }
 
 .khongten-main .phanmem-content .content-item .post span,

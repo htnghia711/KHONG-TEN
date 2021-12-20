@@ -4,11 +4,13 @@
         margin: 0;
     }
     .phanmem {
+        a {
+            text-decoration: none;
+        }
         .post-category a {
             color: white;
             padding: 3px 10px;
             background-color: #5f35ac;
-            text-decoration: none;
             font-size: 12px;
         }
     }
@@ -32,9 +34,12 @@
         }
     }
     .phanmem-main-topic {
-        margin-bottom: 40px;
-        img {
-            width: 48%;
+        margin-bottom: 36px;
+        a {
+            width: 50%;
+            img {
+                width: 150%;
+            }
         }
         .main-topic-post {
             padding-left: 3%;
@@ -74,8 +79,10 @@
                 margin-left: 5px;
                 padding-left: 5px;
                 .title {
+                    display: block;
                     color: $color-black-0;
                     font-weight: 600;
+                    text-decoration: none;
                 }
                 span,
                 i {
