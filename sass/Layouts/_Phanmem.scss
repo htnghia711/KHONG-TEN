@@ -32,6 +32,19 @@
                 background: linear-gradient(to right, purple 10%, #e0dada 1% 40%);
             }
         }
+        .line-more {
+            display: flex;
+            a {
+                margin: auto;
+                font-size: 14px;
+                color: rgb(32, 31, 31);
+                font-weight: 500;
+                text-decoration: none;
+            }
+            hr {
+                width: 90%;
+            }
+        }
     }
     .phanmem-main-topic {
         margin-bottom: 36px;

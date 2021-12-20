@@ -1,0 +1,108 @@
+.khongten-main {
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+    .windows {
+        a {
+            text-decoration: none;
+        }
+        .post-category a {
+            color: white;
+            padding: 3px 10px;
+            background-color: #ea6060;
+            font-size: 12px;
+        }
+    }
+    .container-right {
+        padding: 0;
+        .title {
+            margin: 10px 0 18px;
+            h4 {
+                margin: 0;
+                width: 15%;
+                font-size: 22px;
+                font-weight: 600;
+            }
+            hr {
+                width: 90%;
+                margin-top: 12px;
+                height: 1px;
+                // background: linear-gradient(to right, purple 10%, gray 1% 80%);
+                background: linear-gradient(to right, #ea6060 10%, #e0dada 1% 40%);
+            }
+        }
+        .line-more {
+            display: flex;
+            a {
+                margin: auto;
+                font-size: 14px;
+                color: rgb(32, 31, 31);
+                font-weight: 500;
+                text-decoration: none;
+            }
+            hr {
+                width: 90%;
+            }
+        }
+    }
+    .windows-main-topic {
+        margin-bottom: 36px;
+        a {
+            width: 50%;
+            img {
+                height: 318px;
+            }
+        }
+        .main-topic-post {
+            padding-left: 3%;
+            .title {
+                padding-top: 9px;
+                font-weight: 600;
+                font-size: 19px;
+                color: $color-black-0;
+            }
+            span,
+            i {
+                color: rgb(46, 44, 44);
+                font-size: 12px;
+                font-weight: 600;
+                padding-top: 7px;
+            }
+            p {
+                margin: 0;
+                padding-top: 10px;
+                color: gray;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .windows-content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        img {
+            width: 32%;
+            object-fit: cover;
+        }
+        .content-item {
+            display: flex;
+            .post {
+                margin-left: 5px;
+                padding-left: 5px;
+                .title {
+                    display: block;
+                    color: $color-black-0;
+                    font-weight: 600;
+                    text-decoration: none;
+                }
+                span,
+                i {
+                    font-size: 12px;
+                    color: $color-black-0;
+                }
+            }
+        }
+    }
+}

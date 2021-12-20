@@ -499,6 +499,24 @@ body a {
   background: linear-gradient(to right, purple 10%, #e0dada 1% 40%);
 }
 
+.khongten-main .container-right .line-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.khongten-main .container-right .line-more a {
+  margin: auto;
+  font-size: 14px;
+  color: #201f1f;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.khongten-main .container-right .line-more hr {
+  width: 90%;
+}
+
 .khongten-main .phanmem-main-topic {
   margin-bottom: 36px;
 }
@@ -571,6 +589,139 @@ body a {
 
 .khongten-main .phanmem-content .content-item .post span,
 .khongten-main .phanmem-content .content-item .post i {
+  font-size: 12px;
+  color: #29303b;
+}
+
+.khongten-main .row {
+  padding: 0;
+  margin: 0;
+}
+
+.khongten-main .windows a {
+  text-decoration: none;
+}
+
+.khongten-main .windows .post-category a {
+  color: white;
+  padding: 3px 10px;
+  background-color: #ea6060;
+  font-size: 12px;
+}
+
+.khongten-main .container-right {
+  padding: 0;
+}
+
+.khongten-main .container-right .title {
+  margin: 10px 0 18px;
+}
+
+.khongten-main .container-right .title h4 {
+  margin: 0;
+  width: 15%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.khongten-main .container-right .title hr {
+  width: 90%;
+  margin-top: 12px;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(10%, #ea6060), color-stop(1%, #e0dada));
+  background: linear-gradient(to right, #ea6060 10%, #e0dada 1% 40%);
+}
+
+.khongten-main .container-right .line-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.khongten-main .container-right .line-more a {
+  margin: auto;
+  font-size: 14px;
+  color: #201f1f;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.khongten-main .container-right .line-more hr {
+  width: 90%;
+}
+
+.khongten-main .windows-main-topic {
+  margin-bottom: 36px;
+}
+
+.khongten-main .windows-main-topic a {
+  width: 50%;
+}
+
+.khongten-main .windows-main-topic a img {
+  height: 318px;
+}
+
+.khongten-main .windows-main-topic .main-topic-post {
+  padding-left: 3%;
+}
+
+.khongten-main .windows-main-topic .main-topic-post .title {
+  padding-top: 9px;
+  font-weight: 600;
+  font-size: 19px;
+  color: #29303b;
+}
+
+.khongten-main .windows-main-topic .main-topic-post span,
+.khongten-main .windows-main-topic .main-topic-post i {
+  color: #2e2c2c;
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 7px;
+}
+
+.khongten-main .windows-main-topic .main-topic-post p {
+  margin: 0;
+  padding-top: 10px;
+  color: gray;
+  font-size: 14px;
+}
+
+.khongten-main .windows-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+
+.khongten-main .windows-content img {
+  width: 32%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.khongten-main .windows-content .content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.khongten-main .windows-content .content-item .post {
+  margin-left: 5px;
+  padding-left: 5px;
+}
+
+.khongten-main .windows-content .content-item .post .title {
+  display: block;
+  color: #29303b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.khongten-main .windows-content .content-item .post span,
+.khongten-main .windows-content .content-item .post i {
   font-size: 12px;
   color: #29303b;
 }
